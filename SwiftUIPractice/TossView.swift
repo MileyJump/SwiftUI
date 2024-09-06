@@ -26,6 +26,7 @@ struct TossView: View {
         }
         .padding()
         .background(.blue.opacity(0.4))
+        
     }
     
     var body: some View {
@@ -34,20 +35,20 @@ struct TossView: View {
             topView(image: "xmark", text: "문의하기")
             topView(image: "bookmark", text: "북마크")
         }
-        
         HStack {
             cardView
             cardView
             cardView
         }
-        
         VStack {
+//            Text("새로운 이벤트")
+//            asTossCardBackground()
+//            asTossCardBackground()
+//            asTossCardBackground()
             ExtractedView(image: "star", text: "새로운 이벤트")
             ExtractedView(image: "star", text: "새로운 이벤트")
             ExtractedView(image: "star", text: "새로운 이벤트")
-            
         }
-     
     }
 }
 
