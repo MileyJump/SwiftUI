@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00C33E42C8AC2940089EA90 /* TossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C33E32C8AC2940089EA90 /* TossView.swift */; };
 		B0B715372C87306300D5B734 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B715362C87306300D5B734 /* SwiftUIPracticeApp.swift */; };
 		B0B715392C87306300D5B734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B715382C87306300D5B734 /* ContentView.swift */; };
 		B0B7153B2C87306400D5B734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B7153A2C87306400D5B734 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00C33E32C8AC2940089EA90 /* TossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossView.swift; sourceTree = "<group>"; };
 		B0B715332C87306300D5B734 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B715362C87306300D5B734 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		B0B715382C87306300D5B734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				B0B7153A2C87306400D5B734 /* Assets.xcassets */,
 				B0B7153C2C87306400D5B734 /* Preview Content */,
 				B0B715462C87308600D5B734 /* SearchView.swift */,
+				B00C33E32C8AC2940089EA90 /* TossView.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				B0B715392C87306300D5B734 /* ContentView.swift in Sources */,
 				B0B715472C87308600D5B734 /* SearchView.swift in Sources */,
+				B00C33E42C8AC2940089EA90 /* TossView.swift in Sources */,
 				B0B715372C87306300D5B734 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
