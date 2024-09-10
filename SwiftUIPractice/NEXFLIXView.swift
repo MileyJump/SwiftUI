@@ -19,7 +19,7 @@ struct NEXFLIXView: View {
     
     var body: some View {
         VStack {
-            Text("JACKFLICK")
+            Text(headerText)
                 .asNetflixForeground(color: .red)
                 .font(.largeTitle)
                 .padding(.bottom, 40)

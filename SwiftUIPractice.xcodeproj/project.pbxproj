@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00463312C9068FD00858E1B /* UpbitSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00463302C9068FD00858E1B /* UpbitSearchView.swift */; };
+		B00463342C906AE300858E1B /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00463332C906AE300858E1B /* Market.swift */; };
 		B00C33E42C8AC2940089EA90 /* TossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C33E32C8AC2940089EA90 /* TossView.swift */; };
 		B00C33E82C8AF79C0089EA90 /* GenreSeletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C33E72C8AF79C0089EA90 /* GenreSeletedView.swift */; };
 		B00C33EA2C8C773E0089EA90 /* NEXFLIXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C33E92C8C773E0089EA90 /* NEXFLIXView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00463302C9068FD00858E1B /* UpbitSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitSearchView.swift; sourceTree = "<group>"; };
+		B00463332C906AE300858E1B /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		B00C33E32C8AC2940089EA90 /* TossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossView.swift; sourceTree = "<group>"; };
 		B00C33E72C8AF79C0089EA90 /* GenreSeletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSeletedView.swift; sourceTree = "<group>"; };
 		B00C33E92C8C773E0089EA90 /* NEXFLIXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEXFLIXView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00463322C906A6300858E1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00463332C906AE300858E1B /* Market.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B00C33EB2C8C78090089EA90 /* CustomModifier */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,12 +81,14 @@
 		B0B715352C87306300D5B734 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				B00463322C906A6300858E1B /* Models */,
 				B00C33EB2C8C78090089EA90 /* CustomModifier */,
 				B0B715362C87306300D5B734 /* SwiftUIPracticeApp.swift */,
 				B0B715382C87306300D5B734 /* ContentView.swift */,
 				B0B7153A2C87306400D5B734 /* Assets.xcassets */,
 				B0B7153C2C87306400D5B734 /* Preview Content */,
 				B0B715462C87308600D5B734 /* SearchView.swift */,
+				B00463302C9068FD00858E1B /* UpbitSearchView.swift */,
 				B00C33E32C8AC2940089EA90 /* TossView.swift */,
 				B00C33E72C8AF79C0089EA90 /* GenreSeletedView.swift */,
 				B00C33E92C8C773E0089EA90 /* NEXFLIXView.swift */,
@@ -165,7 +179,9 @@
 				B00C33ED2C8C783C0089EA90 /* NetflixBackground.swift in Sources */,
 				B00C33E82C8AF79C0089EA90 /* GenreSeletedView.swift in Sources */,
 				B00C33E42C8AC2940089EA90 /* TossView.swift in Sources */,
+				B00463312C9068FD00858E1B /* UpbitSearchView.swift in Sources */,
 				B00C33EA2C8C773E0089EA90 /* NEXFLIXView.swift in Sources */,
+				B00463342C906AE300858E1B /* Market.swift in Sources */,
 				B0B715372C87306300D5B734 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
