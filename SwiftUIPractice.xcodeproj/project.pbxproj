@@ -18,6 +18,7 @@
 		B0B7153B2C87306400D5B734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B7153A2C87306400D5B734 /* Assets.xcassets */; };
 		B0B7153E2C87306400D5B734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B7153D2C87306400D5B734 /* Preview Assets.xcassets */; };
 		B0B715472C87308600D5B734 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B715462C87308600D5B734 /* SearchView.swift */; };
+		B0FBD50C2C92EC0F009CC9FC /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FBD50B2C92EC0F009CC9FC /* RandomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B0B7153A2C87306400D5B734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B7153D2C87306400D5B734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0B715462C87308600D5B734 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B0FBD50B2C92EC0F009CC9FC /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				B0B7153A2C87306400D5B734 /* Assets.xcassets */,
 				B0B7153C2C87306400D5B734 /* Preview Content */,
 				B0B715462C87308600D5B734 /* SearchView.swift */,
+				B0FBD50B2C92EC0F009CC9FC /* RandomImageView.swift */,
 				B00463302C9068FD00858E1B /* UpbitSearchView.swift */,
 				B00C33E32C8AC2940089EA90 /* TossView.swift */,
 				B00C33E72C8AF79C0089EA90 /* GenreSeletedView.swift */,
@@ -177,6 +180,7 @@
 				B0B715392C87306300D5B734 /* ContentView.swift in Sources */,
 				B0B715472C87308600D5B734 /* SearchView.swift in Sources */,
 				B00C33ED2C8C783C0089EA90 /* NetflixBackground.swift in Sources */,
+				B0FBD50C2C92EC0F009CC9FC /* RandomImageView.swift in Sources */,
 				B00C33E82C8AF79C0089EA90 /* GenreSeletedView.swift in Sources */,
 				B00C33E42C8AC2940089EA90 /* TossView.swift in Sources */,
 				B00463312C9068FD00858E1B /* UpbitSearchView.swift in Sources */,
